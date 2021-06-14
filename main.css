@@ -1,0 +1,62 @@
+body, html {
+    background-color: rgb(32, 32, 32);
+}
+
+html {
+    border-top: 3px solid #00CC0A;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+* {
+    margin: 0 auto;
+}
+
+.header {
+    display: inline-block;
+    text-align: center;
+}
+
+.logo {
+    display: inline;
+    padding-right: 0;
+}
+
+.title {
+    font-size: 13pt;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline;
+}
+
+input {
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: none;
+    border: none;
+    color: white;
+    outline: none;
+}
+
+.date::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    cursor: pointer;
+}
+
+.search {
+    margin: 10px auto;
+    background-color: #00CC0A;
+    color: white;
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 150px;
+}
+
+.search:hover {
+    cursor: pointer;
+    background-color: #DD0058;
+}
