@@ -1,4 +1,4 @@
-![alt text](icon_128.png)
+![alt text](images/icon_128.png)
 
 # **MatterSearch**
 
