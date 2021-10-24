@@ -14,12 +14,14 @@
             <h1 class="title">MatterSearch</h1>
         </div>
         <form action="#">
-        <input type="text" class="name" id="name" placeholder="Name (required)" required />
-        <input type="text" class="name" id="place" placeholder="Location" />
-        <input type="text" class="name" id="date" placeholder="Date" />
-        <input type="text" class="name" id="modify" placeholder="Modifier (optional)" />
+        <br>
+        <input type="text" title="First Name and/or Surname" class="name" id="name" placeholder="Name (required)" required/>
+        <input type="text" title="Place of Residence, childhood home is not recommended for Census Records" class="name" id="place" placeholder="Location"/>
+        <input type="text" title="Death Date is preferred for Census Records" class="name" id="date" placeholder="Date"/>
+        <input type="text" title="The Modier is a set of keywords or filters to narrow down results. ie: 'site: census.gov'" class="name" id="modify" placeholder="Modifier (optional)"/>
         <br>
         <button type="submit" class="search" id="search">Search</button>
+        <br>
         </form>
         <script src="main.js" type="application/javascript" async defer></script>
     </body>

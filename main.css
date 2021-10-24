@@ -4,7 +4,7 @@ body, html {
 
 html {
     border-top: 3px solid #00CC0A;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 * {
@@ -19,23 +19,32 @@ html {
 .logo {
     display: inline;
     padding-right: 0;
+    padding-top: 5px;
 }
 
 .title {
-    font-size: 13pt;
+    font-size: 15pt;
     color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: inline;
 }
 
 input {
     padding: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
     background: none;
     border: none;
     color: white;
     outline: none;
+    width: 200px;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+input:focus {
+    background-color: rgb(45, 45, 45);
 }
 
 .date::-webkit-calendar-picker-indicator {
@@ -49,11 +58,15 @@ input {
     color: white;
     position: relative;
     border: none;
-    border-radius: 5px;
+    border-radius: 25px;
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 5px;
     left: 50%;
     transform: translate(-50%, 0%);
-    width: 150px;
+    width: 200px;
+    height: 30px;
+    transition-duration: 0.25s;
 }
 
 .search:hover {
