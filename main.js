@@ -12,3 +12,15 @@ function Search() {
         chrome.tabs.create({"url": "https://www.google.com/search?q="+name+" "+place+" "+date+" "+modify})
     }
 }
+
+document.getElementById("filter1").addEventListener("click", () => {
+    chrome.tabs.create({"url": "https://www.familysearch.org"})
+});
+
+document.getElementById("filter2").addEventListener("click", () => {
+    chrome.tabs.create({"url": "https://www.ancestory.com"})
+});
+
+document.getElementById("filter3").addEventListener("click", () => {
+    chrome.tabs.create({"url": "https://www.census.gov"})
+});
