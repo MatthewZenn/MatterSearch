@@ -15,18 +15,19 @@
         </div>
         <form action="#">
         <br>
-        <input type="text" title="First Name and/or Surname" class="name" id="name" placeholder="Name (required)" required/>
+        <input type="text" title="First Name" class="name" id="firstname" placeholder="First Name"/>
+        <input type="text" title="Surname" class="name" id="name" placeholder="Last Name (required)" required/>
         <input type="text" title="Place of Residence, childhood home is not recommended for Census Records" class="name" id="place" placeholder="Location"/>
         <input type="text" title="Death Date is preferred for Census Records" class="name" id="date" placeholder="Date"/>
         <input type="text" title="The Modier is a set of keywords or filters to narrow down results. ie: 'site: census.gov'" class="name" id="modify" placeholder="Modifier (optional)"/>
         <br>
-        <div class="filter-div">
-            <button type="submit" title="FamilySearch" class="filter" id="filter1"><img src="images/FamilySearch.png" alt=""></button>
-            <button type="submit" title="Ancestry" class="filter" id="filter2"><img src="images/Ancestory.png" alt=""></button>
-            <button type="submit" title="Census" class="filter" id="filter3"><img src="images/Census.png" alt=""></button>
-        </div>
         <br>
-        <button type="submit" class="search" id="search">Search</button>
+        <div class="filter-div">
+            <button type="submit" title="Search" class="filter" id="search"><img id="buttonimage" src="images/Search.png" alt=""></button>
+            <button type="submit" title="FamilySearch" class="filter" id="filter1"><img id="image1" src="images/FamilySearch.png" alt=""></button>
+            <button type="submit" title="Ancestry" class="filter" id="filter2"><img id="image2" src="images/Ancestory.png" alt=""></button>
+            <button type="submit" title="Census" class="filter" id="filter3"><img id="image3" src="images/Census.png" alt=""></button>
+        </div>
         <br>
         </form>
         <script src="main.js" type="application/javascript" async defer></script>

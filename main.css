@@ -37,7 +37,7 @@ input {
     border: none;
     color: white;
     outline: none;
-    width: 200px;
+    width: 270px;
     font-size: 12pt;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
@@ -52,26 +52,8 @@ input:focus {
     cursor: pointer;
 }
 
-.search {
-    margin: 15px auto;
-    background-color: #00CC0A;
-    color: white;
-    position: relative;
-    border: none;
-    border-radius: 25px;
-    font-size: 14pt;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 5px;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    width: 150px;
-    height: 30px;
-    transition-duration: 0.25s;
-}
-
-.search:hover {
-    cursor: pointer;
-    background-color: #DD0058;
+#buttonimage:hover {
+    content: url("images/Search_Hover.png");
 }
 
 .filter-div {
@@ -91,20 +73,16 @@ input:focus {
     height: 65px;
     padding: 0;
     border-radius: 50px;
-    transition-duration: 0.25s;
 }
 
-#filter1:hover {
-    color: white;
-    background-color: #DD0058;
+#image1:hover {
+    content: url("images/FamilySearch_Hover.png");
 }
 
-#filter2:hover {
-    color: white;
-    background-color: #00CC0A;
+#image2:hover {
+    content: url("images/Ancestory_Hover.png");
 }
 
-#filter3:hover {
-    color: white;
-    background-color: #00b1dd;
+#image3:hover {
+    content: url("images/Census_Hover.png");
 }
