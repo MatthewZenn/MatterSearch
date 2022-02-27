@@ -14,7 +14,10 @@ function Search() {
 }
 
 document.getElementById("filter1").addEventListener("click", () => {
-    chrome.tabs.create({"url": "https://www.familysearch.org"})
+    var name = document.getElementById("name").value
+    var place = document.getElementById("place").value;
+    var date = document.getElementById("date").value;
+    chrome.tabs.create({"url": "https://www.familysearch.org/search/discovery/results?surname="+name+"&birthPlace="+place+"&birthDate="+date})
 });
 
 document.getElementById("filter2").addEventListener("click", () => {
