@@ -13,4 +13,4 @@ To use MatterSearch, begin by filling out any information you have (name is requ
 - Added description tooltips
 - Version 1.2 has also been made Public
 
-Version 1.2 is available for [download](https://microsoftedge.microsoft.com/addons/detail/mattersearch/lpnfhpcjcgfhnbkogkfdanbhnlbdcbke)
+Version 1.3 is available for [download](https://microsoftedge.microsoft.com/addons/detail/mattersearch/lpnfhpcjcgfhnbkogkfdanbhnlbdcbke)
